@@ -20,6 +20,5 @@ class Renderizer < Formula
 
   def install
     bin.install "renderizer"
-    ...
   end
 end
