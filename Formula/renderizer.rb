@@ -7,7 +7,6 @@ class Renderizer < Formula
   homepage "https://github.com/gomatic/renderizer"
   version "2.0.12"
   license "GPL-3.0"
-  bottle :unneeded
 
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/gomatic/renderizer/releases/download/v2.0.12/renderizer_darwin_x86_64.tar.gz"
